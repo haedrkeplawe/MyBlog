@@ -19,7 +19,7 @@ const path = require("path");
 
 const secret = "lkfsjdlioglsfsnflkj";
 
-app.use(cors({ credentials: true, origin: "http://localhost:3000" }));
+app.use(cors({ credentials: true, origin: "https://haedrblog.netlify.app" }));
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 app.use(cookieParser());
